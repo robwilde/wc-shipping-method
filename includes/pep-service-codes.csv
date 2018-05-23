@@ -1,0 +1,27 @@
+service,code,description,>=kg,<=kg,>=m,<=m
+next-day,S,S = 0 > 25KG,0,25,,
+next-day,C,Racks 26 > 100KG,26,500,,
+next-day,U,2 PTL 501KG > 1000KG,501,1000,,
+next-day,TA,4 PLT 1001KG > 2000KG,1001,2001,,
+next-day,R,Racks 0 > 100KG  (>= 2.4m  <=6m long),0,100,2.4,6
+next-day,TB,6 PLT 0 > 3000KG,2001,3000,,
+next-day,TC,8 PLT 3001KG > 5000KG,3001,5000,,
+next-day,TD,10 PLT 5001KG > 8000KG,5001,8000,,
+next-day,TE,12 PLT 8001KG > 10000KG,8001,12000,,
+same-day,SE,SE = 0 > 25KG Express,0,25,,
+same-day,CE,CE = 1 PLT 26KG > 500KG,26,500,,
+same-day,UE,UE = 2 PLT 501KG > 1000KG,501,1000,,
+same-day,RE,RACK EXPRESS 0 > 500kgs (>= 2.4m  <=6m long),0,500,2.4,6
+same-day,TBE,TBE 1001-3000KG 6PLT,1001,3000,,
+same-day,TCE,TCE 3001-5000KG 8PLT,3001,5000,,
+same-day,TDE,TDE 5001-8000KG 10PT,5001,8000,,
+same-day,TEE,TEE 8001-12000KG 14P,8001,12000,,
+vip,SV,SV = 0 > 25KG within 2h delivery,0,25,,
+vip,CV,CV = 1 PLT 26KG > 500KG within 2h delivery,26,500,,
+vip,UV,UV = 2 PLT 501KG >1000KG within 2h delivery,501,1000,,
+vip,RV,RACK VIP 0 > 500kgs within 2h delivery  (>= 2.4m  <=6m long),0,500,2.4,6
+vip,1D,U/V Dash 501KG > 1000KG,501,1000,,
+vip,TBV,TBV 1001-3000KG 6PLT,1001,3000,,
+vip,TCV,TCV 3001-5000KG 8PLT,3001,5000,,
+vip,TDV,TDV 5001-8000KG 10PT,5001,8000,,
+vip,TEV,TEV 8001-12000KG 14P,8001,12000,,
